@@ -32,3 +32,15 @@ Adding the reading speed is quick and valuable to the user. However, further imp
 
 - Use the calculated reading speed as just a seed. Start using real user data to provide a better number since reading speed and comprehension speed are different.
 - Provide a range for reading speed. There are definitely speed readers and sloth readers out there.
+
+# But Wait, There's More!
+After publishing this post to GitHub Pages, I realized that `ceil` was only recently introduced into Liquid and is not in the [version used by GitHub](https://pages.github.com/versions/). (`v2.6.2` as of this writing).
+The alternative is to simulate the `ceil` function using the following:
+
+{% highlight liquid %}
+{% raw %}
+{% assign roundedValue = content | number_of_words | divided_by: 300.0 | plus: 0.99 %}
+{% assign roundedValueFraction = roundedValue | modulo: 1 %}
+{{ roundedValue | minus: roundedValueFraction | remove: ".0" }} min read
+{% endraw %}
+{% endhighlight %}

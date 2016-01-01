@@ -10,7 +10,9 @@ layout: default
       {% if page.author %}
       • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
       {% endif %}
-      • <span>{{ content | number_of_words | divided_by: 300.0 | ceil }} min read</span>
+      {% assign roundedValue = content | number_of_words | divided_by: 300.0 | plus: 0.99 %}
+      {% assign roundedValueFraction = roundedValue | modulo: 1 %}
+      • <span>{{ roundedValue | minus: roundedValueFraction | remove: ".0" }} min read</span>
     </p>
   </header>
 
