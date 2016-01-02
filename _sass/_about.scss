@@ -1,0 +1,14 @@
+$border-radius: 2em;
+
+.my-picture {
+  text-align: center;
+
+  img {
+    -webkit-border-radius: $border-radius;
+    -moz-border-radius: $border-radius;
+    border-radius: $border-radius;
+    border: black solid 1px;
+  }
+
+  margin-bottom: 25px;
+}
