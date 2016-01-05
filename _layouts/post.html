@@ -10,14 +10,23 @@ layout: default
         {{ page.date | date: "%b %-d, %Y"}}
       </time>
       {% if page.author %}
-      • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        {{ page.author }}
-      </span></span>
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span itemprop="name">
+            {{ page.author }}
+          </span>
+        </span>
       {% endif %}
       {% assign roundedValue = content | number_of_words | divided_by: 300.0 | plus: 0.99 %}
       {% assign roundedValueFraction = roundedValue | modulo: 1 %}
       • <span>{{ roundedValue | minus: roundedValueFraction | remove: ".0" }} min read</span>
+      • <span>
+        tags:
+          {% for tag in page.tags %}
+          <span class="tag">
+            {{ tag }}
+          </span>
+        {% endfor %}
+      </span>
     </p>
   </header>
 
