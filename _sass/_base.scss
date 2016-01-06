@@ -207,7 +207,8 @@ pre {
 
 $tag-radius: 10px;
 .tag {
-    margin: 0 4px 0 4px;
+    display: inline-block;
+    margin: 2px;
     padding: 3px;
     background: #999;
     color: #fff;
