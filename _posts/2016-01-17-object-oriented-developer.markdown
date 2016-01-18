@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Object Oriented Developer"
+title:  "Object-Oriented Developer"
 date:   2016-1-17 11:07:00 -0800
 tags: programming self-improvement object-oriented
 ---
 
-# Becoming an Object Oriented Developer
+# Becoming an Object-Oriented Developer
 Given that [object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming) is the best thing since sliced bread, 
 we should all strive to incorporate it into our lives. However, I'm not talking just about learning a language like Java or Ruby, I'm talking
 about incorporating this phenomenal invention into our everyday lifestyle.
