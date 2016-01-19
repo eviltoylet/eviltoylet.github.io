@@ -1,0 +1,27 @@
+.post-navigation {
+  border-top: 1px solid gainsboro;
+  padding-top: 2px;
+  color: grey;
+  .navigation {
+    display: inline-block;
+  }
+  margin-bottom: 5px;
+}
+
+.older-post {
+  width: 33.3%;
+  float: left;
+  text-align: left;
+}
+
+.show-posts {
+  width: 33.3%;
+  float: left;
+  text-align: center;
+}
+
+.newer-post {
+  width: 33.3%;
+  float: left;
+  text-align: right;
+}

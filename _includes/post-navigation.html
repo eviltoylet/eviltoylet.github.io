@@ -1,0 +1,28 @@
+<div class="older-post navigation">
+  <div>
+    {% if page.previous %}
+    <a href={{page.previous.url}}>Previous Post</a>
+    {% else %}
+    Previous Post
+    {% endif %}
+  </div>
+  <div>
+    {{page.previous.title}}
+  </div>
+</div>
+<div class="show-posts navigation">
+  <a href="/">All Posts</a>
+</div>
+<div class="newer-post navigation">
+  <div>
+    {% if page.next %}
+    <a href={{page.next.url}}>Next Post</a>
+    {% else %}
+    Next Post
+    {% endif %}
+  </div>
+  <div>
+    {{page.next.title}}
+  </div>
+</div>
+<div style="clear: both;"></div>​
