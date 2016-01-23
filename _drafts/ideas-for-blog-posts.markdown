@@ -1,7 +1,0 @@
-- starting with the end in mind
-- doing things one step at a time
-- tools to overcome our deficiencies
-- everything is a draft. multipass development
-- what is the optimal length for a blog post?
-- opinions on Amazon Dash and on-demand delivery (i.e. printer ink)
-- the difficulty in creating a game AI. Even if you have perfect information, have to be good at lying so that you don't seem like you do
