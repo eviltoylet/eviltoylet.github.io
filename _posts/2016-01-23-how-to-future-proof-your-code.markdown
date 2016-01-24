@@ -21,8 +21,8 @@ are very accessible.
 "How does that pertain to code?" you might ask. And you would be correct in questioning that. Like it or not, even
 programming languages evolve. Here are some C++ snippets to multiply a list of numbers by 2:
 
-**C++03**
-{% highlight c++ %}
+**C++03 (2003)**
+{% highlight cpp %}
 int numbers[5] = {1, 2, 3, 4, 5};
 
 for (int x = 0; x < sizeof(numbers)/sizeof(numbers[0]); x++) { 
@@ -30,8 +30,8 @@ for (int x = 0; x < sizeof(numbers)/sizeof(numbers[0]); x++) {
 } 
 {% endhighlight %}
 
-**C++11**
-{% highlight c++ %}
+**C++11 (2011)**
+{% highlight cpp %}
 int numbers[5] = {1, 2, 3, 4, 5};
 
 for (auto &number : numbers) {
@@ -47,11 +47,11 @@ Literature is read by humans. Code is read by machines. Humans care if their rea
 exciting, and entertaining. Machines, not so much. So, for a machine, there isn't any functional difference between 
 these two code fragments that multiply the number 16 by 2.
 
-{% highlight c++ %}
+{% highlight cpp %}
 int number = 16;
 number *= 2;
 {% endhighlight %}
-{% highlight c++ %}
+{% highlight cpp %}
 int number = 0x10;
 number <<= 1;
 {% endhighlight %}
