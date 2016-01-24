@@ -62,14 +62,14 @@ obscure version of number multiplication is more stimulating, but it isn't for m
 be for entertainment. It should be pedestrian and easy to understand. Always default to using the most basic of building
 blocks, even if it means more verbosity. The point here is that your code should be the literary equivalent of:
 
-{% highlight plaintext %}
+{% highlight text %}
 This is John. John is fat. John is always hungry. 
 John eats 100 slices of bread. 
 John is still hungry.
 {% endhighlight %}
 
 instead of:
-{% highlight plaintext %}
+{% highlight text %}
 John, a rather portly fellow, has never been able to satiate his stomach. 
 Despite eating a hundred slices of wheat byproduct, he was still famished.
 {% endhighlight %}
