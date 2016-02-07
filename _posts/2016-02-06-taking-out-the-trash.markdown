@@ -14,8 +14,8 @@ And there you have it, you're halfway there to understanding the two styles of m
 manual and automatic.
 
 # Why Memory Management?
-Memory management is extremely important for software. Software is allocated a finite amount of resources by the operating
-system and it cannot consume more than the system has. Because, physics. Once a running program is out of resources, the program 
+Memory management is extremely important for software. Software is allocated a finite amount of memory by the operating
+system and it cannot consume more than the system has. Because, physics. Once a running program is out of memory, the program 
 cannot continue to run. It must abort. There is no recourse.
 
 This is akin to trying to move a very necessary piece of furniture, like a bed, into a room with no space for it. If
