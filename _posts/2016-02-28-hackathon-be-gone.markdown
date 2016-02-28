@@ -24,7 +24,7 @@ start realizing the following facts:
   Occasionally, the organizers do a great job and offer healthier alternatives. But, these merely supplement instead
   of supplant the stereotypical programmer's diet catered at these events.
   - *poor hygiene in close quarters.* Gather together hundreds of students in a small space and someone is bound to get sick.
-  Shared hardware, space, bathrooms, and servuing utensils suddenly become vectors of disease transmission. Then, as the 
+  Shared hardware, space, bathrooms, and serving utensils suddenly become vectors of disease transmission. Then, as the 
   *coup de grace*, sleep deprive them to compromise their immune systems. Perhaps the only good that can come of this is 
   to provide case studies for the CDC.
   - *encourages sleep deprivation.* In addition to all the provided stimulants, hackers are encouraged to work through the night.
