@@ -2,7 +2,7 @@
 layout: post
 title:  "Software Developers Will Become Obsolete"
 date:   2016-03-06 10:10:00 -0800
-tags: testing software development obsolescence
+tags: testing software development obsolete
 ---
 
 To become a respected professional in software development today requires a high level of expertise in a variety of
